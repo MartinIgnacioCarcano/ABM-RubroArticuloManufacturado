@@ -1,0 +1,55 @@
+/*Pantalla completa*/
+.pantallaLogin{
+    margin: 0;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Formulario*/
+.formLogin{
+    padding: 15px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: #433F3F;
+    border-radius: 8%;
+}
+.formLogin h1{
+    color: white;
+}
+/*INPUTS*/
+.inputLogin{
+    padding: 10px;
+    height: 35px;
+    width: 80%;
+    border: none;
+    border-radius: 16px;
+}
+
+/*Olvidaste tu contraseña?*/
+.pantallaLogin a{
+    text-decoration: none;
+    color: black;
+}
+
+.pantallaLogin a:hover{
+    color: rgba(255, 210, 63, 0.8);
+}
+
+/*BOTON INICIAR SESION*/
+#iniciarSesion{
+    display: flex;
+    min-width: 150px;
+    padding: 8.16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #FFD23F;
+}

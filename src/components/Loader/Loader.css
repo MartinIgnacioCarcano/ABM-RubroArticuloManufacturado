@@ -1,0 +1,16 @@
+.loader {
+position: fixed;
+    top: 70%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+
+}
+
+.loader-spinner {
+    color: white;
+    width: 5rem;
+    height: 5rem;
+    scale: 1.5;
+
+}
